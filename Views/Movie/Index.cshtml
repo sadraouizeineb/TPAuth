@@ -1,0 +1,19 @@
+﻿@model IEnumerable<tpAuth.Models.Movie>
+
+<h1>Liste des Films</h1>
+
+
+@foreach (var movie in Model)
+{
+    <div>
+        <h3>@movie.Title</h3>
+        <p>@movie.Genre</p>
+
+        <form asp-action="AjouterFavori" asp-controller="Account" method="post">
+            <input type="hidden" name="movieId" value="@movie.Id" />
+            <button type="submit">Ajouter aux Favoris</button>
+        </form>
+    </div>
+}
+
+

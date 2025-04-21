@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-tpAuth-0de9fe80-23ed-4e73-85a8-523fa7298e7e</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MailKit" Version="4.11.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+	</ItemGroup>
+
+
+</Project>
